@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <div>
+    <my-component class="pass" />
+    <!-- <div>
       <Logo />
       <h1 class="title">
         start-nuxt-project
@@ -23,15 +24,25 @@
           GitHub
         </a>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
-export default {}
+import myComponent from '~/components/my-component.vue'
+
+export default {
+  components: {
+    myComponent
+  },
+}
 </script>
 
 <style>
+.pass {
+  background-color: green;
+}
+
 .container {
   margin: 0 auto;
   min-height: 100vh;

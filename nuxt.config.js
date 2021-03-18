@@ -17,7 +17,7 @@ const config = {
   },
 
   serverMiddleware: [
-    '~/api/server-middleware.js'
+    // '~/api/server-middleware.js'
   ],
 
   // Global CSS: https://go.nuxtjs.dev/config-css
